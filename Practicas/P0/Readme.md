@@ -8,8 +8,12 @@ Clonar
 Hacer un branch
 - git checkout -b NOMBRE_RAMA
 Agregar el repositorio de Chris como upstream
+<<<<<<< HEAD
 - git remote add upstream 
 https://github.com/chrigarc/ComputacionDistribuida20151.git
+=======
+- git remote add upstream git@github.com:charigarc/cd2019-1.git
+>>>>>>> eccee232d4c57ac3db41d6b2c2595ee5c1a8812c
 Hacer un pull (actualizar) de upstream
 git pull upstream master
 - Crear una carpeta con su numero de cuenta
@@ -21,5 +25,8 @@ git commit -m "mensaje descriptivo"
 - Realizar la carga, o hacer push
 git push origin SU_RAMA
 - Desde la pagina solicitar pull request
+<<<<<<< HEAD
 
 git@github.com:chrigarc/cd2019-1.git
+=======
+>>>>>>> eccee232d4c57ac3db41d6b2c2595ee5c1a8812c
